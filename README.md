@@ -36,11 +36,9 @@ O projeto inclui:
 
 O código-fonte está organizado da seguinte forma (assumindo o pacote `projeto.calculadora`):
 
-* **`src/main/java/com/example/calculadora/Calculadora.java`**: Classe principal com a lógica de negócios das operações da calculadora.
-* **`src/main/java/com/example/calculadora/AppCalculadora.java`**: Classe com o método `main` que implementa a interface de linha de comando para interação com o usuário.
-* **`src/test/java/com/example/calculadora/CalculadoraTeste.java`**: Classe contendo os testes unitários para a classe `Calculadora`, utilizando JUnit 5.
-
-*(A estrutura de diretórios `src/main/java` e `src/test/java` é padrão em projetos Maven/Gradle, mas pode ser adaptada em projetos Java simples no Eclipse).*
+* **`src/projeto/calculadora/Calculadora.java`**: Classe principal com a lógica de negócios das operações da calculadora.
+* **`src/projeto/calculadora/AppCalculadora.java`**: Classe com o método `main` que implementa a interface de linha de comando para interação com o usuário.
+* **`src/projeto/calculadora/CalculadoraTeste.java`**: Classe contendo os testes unitários para a classe `Calculadora`, utilizando JUnit 5.
 
 ## 5. Como Compilar e Executar
 
@@ -48,7 +46,7 @@ O código-fonte está organizado da seguinte forma (assumindo o pacote `projeto.
 
 * JDK (Java Development Kit) instalado e configurado.
 * Eclipse IDE (ou outra IDE Java).
-* JUnit 5 devidamente configurado no classpath do projeto no Eclipse (ver instruções de como adicionar a biblioteca JUnit ao projeto no Eclipse, caso não esteja usando Maven/Gradle).
+* JUnit 5 devidamente configurado no classpath do projeto no Eclipse.
 
 ### 5.2. Compilando
 
@@ -84,9 +82,7 @@ Ao executar `AppCalculadora.java`:
 
 ## 7. Autor(es)
 
-* [Seu Nome Completo ou Nome do Grupo]
-* **Disciplina:** [Nome da Disciplina]
-* **Instituição:** [Nome da Sua Faculdade/Universidade]
+* Genison Leal
 * **Professor(a):** [Nome do(a) seu/sua Professor(a)]
 * **Data:** [Data da Entrega ou Conclusão]
 
