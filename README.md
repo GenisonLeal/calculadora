@@ -83,7 +83,4 @@ Ao executar `AppCalculadora.java`:
 ## 7. Autor(es)
 
 * Genison Leal
-* **Professor(a):** [Nome do(a) seu/sua Professor(a)]
-* **Data:** [Data da Entrega ou Conclusão]
-
 ---
